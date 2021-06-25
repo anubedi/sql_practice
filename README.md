@@ -28,5 +28,15 @@ min sal
 
 select max(salary) from employee_info;
 
+select min(salary) from  employee_info;
+
+mysql> insert into employee_info values(3,'Chandu','admin',1000000);
+
  select count(empname) count  ,dept_name from employee_info group by dept_name;
+ 
+ mysql> select empName  Employee_Name from employee_info;
+ 
+ mysql> select count(empname)  ,dept_name from employee_info group by dept_name;
+ 
+ mysql> select count(empname) count  ,dept_name from employee_info group by dept_name;
 
