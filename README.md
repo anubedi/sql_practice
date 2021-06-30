@@ -39,4 +39,22 @@ mysql> insert into employee_info values(3,'Chandu','admin',1000000);
  mysql> select count(empname)  ,dept_name from employee_info group by dept_name;
  
  mysql> select count(empname) count  ,dept_name from employee_info group by dept_name;
+ 
+ how to find nth max salary 
+ 
+ 
+ select * from employee_info order by salary desc limit offset(n-1),limit
+ 
+  select * from employee_info order by salary desc limit 2,1
+  
+ update employee_info set empName = 'test' where empid=1
+ 
+ joins:
+ self join
+ 
+ inner join
+ 
+ left outer join
+ right outer join
+ full join
 
